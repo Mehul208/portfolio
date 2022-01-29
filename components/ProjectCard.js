@@ -8,7 +8,6 @@ import {
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "tailwindcss/tailwind.css";
-import conduit from "../assets/conduit.gif";
 
 export default function ProjectCard({
   title,
