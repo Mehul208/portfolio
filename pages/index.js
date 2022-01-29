@@ -156,8 +156,8 @@ function Home(props) {
   );
 }
 export async function getStaticProps() {
-  const res = await fetch("https://udit-takkar.vercel.app/api/projects");
-  // const res = await fetch("http://localhost:3000/api/projects");
+  
+  const res = await fetch("https://mehul-chauhan.vercel.app/api/projects");
 
   const data = await res.json();
 
