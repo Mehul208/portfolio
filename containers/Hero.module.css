@@ -1,0 +1,42 @@
+.pagecontainer {
+  min-height: 100vh;
+  padding-left: 4;
+  padding-right: 4;
+  margin: 0 auto;
+}
+
+.dots {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url("../assets/dot-bg.svg");
+  mix-blend-mode: overlay;
+  mask-image: linear-gradient(to top, transparent 5%, black 95%),
+    linear-gradient(to right, transparent 20%, black 80%);
+  mask-composite: exclude;
+  -webkit-mask-composite: source-in;
+}
+
+.mix-background {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url("../assets/hero.svg");
+  background-size: cover;
+  mix-blend-mode: overlay;
+  mask-image: linear-gradient(to top, transparent 5%, black 95%),
+    linear-gradient(to right, transparent 20%, black 80%);
+  mask-composite: exclude;
+  -webkit-mask-composite: source-in;
+}
+
+.test {
+  font-size: 3px;
+  z-index: 3;
+}

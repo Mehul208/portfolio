@@ -1,0 +1,144 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
+
+@font-face {
+  font-family: "Muli";
+  src: url("/font/Muli-SemiBold.tff") format("tff");
+  font-display: swap;
+}
+@import "tailwindcss/utilities";
+html,
+body {
+  padding: 0;
+  margin: 0;
+
+  font-family: Muli, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.test {
+  font-size: 200px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  color: white;
+}
+.pagecontainer {
+  min-height: 100vh;
+  padding-left: 4;
+  padding-right: 4;
+  margin: 0 auto;
+  overflow-y: auto;
+  /* background-color: #343c7a; */
+}
+
+.dots {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+  background-image: url("../assets/dot-bg.svg");
+  mix-blend-mode: overlay;
+  mask-image: linear-gradient(to top, transparent 5%, black 95%),
+    linear-gradient(to right, transparent 20%, black 80%);
+  mask-composite: exclude;
+  -webkit-mask-composite: source-in;
+}
+
+.mix-background {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+  background-image: url("../assets/hero.svg");
+  background-size: cover;
+  mix-blend-mode: overlay;
+  mask-image: linear-gradient(to top, transparent 5%, black 95%),
+    linear-gradient(to right, transparent 20%, black 80%);
+  mask-composite: exclude;
+  -webkit-mask-composite: source-in;
+}
+.hero_children {
+  max-width: 49rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero_intro {
+  font-family: "Source Code Pro", monospace;
+}
+
+.hero_teaser {
+  max-width: 35rem;
+}
+.projects__section_title::after {
+  content: "";
+  display: block;
+  height: 1px;
+  margin-left: 1rem;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  flex-grow: 1;
+  /* transform: translate(-100%); */
+
+  /* min-width: 20rem; */
+}
+.projects__section_title::before {
+  content: "★";
+  margin-right: 1.5rem;
+  /* font-family: monospace; */
+  color: #ffcc68;
+  font-size: 20px;
+  position: relative;
+}
+
+.picture {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.project__card {
+  background: linear-gradient(340deg, #2e3360 0%, #1f2347 100%);
+  border-width: 0.0625rem;
+  border-style: solid;
+  border-image: initial;
+  border-color: #282e5e;
+  box-sizing: border-box;
+  box-shadow: rgb(0 0 0 / 12%) 0.3125rem 0.3125rem 0.9375rem;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+.techstack_shine {
+  /* cursor: help; */
+  color: #ffcc68;
+  -webkit-mask-image: linear-gradient(
+    -75deg,
+    rgba(0, 0, 0, 0.6) 30%,
+    rgb(0, 0, 0) 50%,
+    rgba(0, 0, 0, 0.6) 70%
+  );
+  -webkit-mask-size: 200%;
+  animation: 3s linear 0s infinite normal none running,
+    3s ease 0s infinite normal none running;
+}
