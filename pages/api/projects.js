@@ -49,7 +49,7 @@ const projects = [
       "When it comes to realtime its always socket.io that works amazing every time.",
     techstack: ["NodeJs", "React Js", "Socket.io"],
     github: {
-      link: "https://github.com/Mehul208/clientn",
+      link: "https://github.com/Mehul208/client",
     },
     demo: {
       link: "https://realtimechatroom.vercel.app/",
