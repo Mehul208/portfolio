@@ -49,7 +49,7 @@ const projects = [
       "When it comes to realtime its always socket.io that works amazing every time.",
     techstack: ["NodeJs", "React Js", "Socket.io"],
     github: {
-      link: "https://github.com/Mehul208/client",
+      link: "https://github.com/Mehul208/client/",
     },
     demo: {
       link: "https://realtimechatroom.vercel.app/",
@@ -70,7 +70,7 @@ const projects = [
     },
   },
   {
-    title: "Love Calculator - Fun Game",
+    title: "Love Calculator - A Fun Game",
     video:
       "https://res.cloudinary.com/dt0v5nlzm/video/upload/v1643353744/Love_Calculator_-_Brave_2022-01-27_19-49-19_wngrdj.mp4",
     description:
