@@ -38,7 +38,7 @@ const projects = [
       link: "https://github.com/Mehul208/Feedhub",
     },
     demo: {
-      link: "#",
+      link: "https://feedhubpr.herokuapp.com/",
     },
   },
   {
@@ -49,7 +49,7 @@ const projects = [
       "When it comes to realtime its always socket.io that works amazing every time.",
     techstack: ["NodeJs", "React Js", "Socket.io"],
     github: {
-      link: "https://github.com/Udit-takkar/productivity-app",
+      link: "https://github.com/Mehul208/clientn",
     },
     demo: {
       link: "https://realtimechatroom.vercel.app/",
@@ -63,10 +63,10 @@ const projects = [
       "Its a basic site with nice UI that shows travel budget based on predefined data using js objects.",
     techstack: ["HTML", "CSS", "JavaScript", "Objects&Classes"],
     github: {
-      link: "https://github.com/Udit-takkar/slack-clone",
+      link: "#",
     },
     demo: {
-      link: "https://slak-clone-4f81c.web.app/",
+      link: "#",
     },
   },
   {
