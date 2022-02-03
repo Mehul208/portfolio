@@ -114,7 +114,6 @@ function Home(props) {
                 <li>MongoDB & Mongoose</li>
                 <li>Node</li>
                 <li>Express</li>
-                <li>GraphQL</li>
                 <li>Git</li>
               </ul>
             </div>
