@@ -112,7 +112,7 @@ function Home(props) {
                 <li>JavaScript</li>
                 <li>React & Redux</li>
                 <li>MongoDB & Mongoose</li>
-                <li>Node</li>
+                <li>NodeJs</li>
                 <li>Express</li>
                 <li>Git</li>
               </ul>
