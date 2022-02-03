@@ -18,7 +18,7 @@ const projects = [
     video:
       "https://res.cloudinary.com/dt0v5nlzm/video/upload/v1643480714/chat_app_hltrri.mp4",
     description:
-      "Its an online inventory manager with CRUD funtionalities for users, products, orders etc.",
+      "It’s a real time chat application where users can register using Google or Facebook, create channels and chat with other users online.",
     techstack: ["React Js", "Chat Engine", "Firebase"],
     github: {
       link: "https://github.com/Mehul208/Convo-App",
