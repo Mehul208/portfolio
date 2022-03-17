@@ -66,7 +66,7 @@ const projects = [
       link: "#",
     },
     demo: {
-      link: "#",
+      link: "https://designed-tour.vercel.app/",
     },
   },
   {
