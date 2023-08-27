@@ -1,5 +1,19 @@
 const projects = [
   {
+    title: "Form Builder",
+    video:
+      "https://res.cloudinary.com/dt0v5nlzm/video/upload/v1693160812/Form_Builder_i35nrx.mp4",
+    description:
+      "Form Builder is a MERN application to create interactive forms with three types of creative question types available. It has Drag and drop feature for questions.",
+    techstack: ["React Js","Express", "MongoDB", "Node JS", "React DnD", "Tailwind CSS"],
+    github: {
+      link: "https://github.com/Mehul208/formBuilder",
+    },
+    demo: {
+      link: "https://form-builder-steel.vercel.app/",
+    },
+  },
+  {
     title: "Ip Locator",
     video:
       "https://res.cloudinary.com/dt0v5nlzm/video/upload/v1643481929/Ip_Locator_-_Brave_2022-01-27_19-48-00_p5vjot.mp4",
@@ -70,17 +84,17 @@ const projects = [
     },
   },
   {
-    title: "Love Calculator - A Fun Game",
+    title: "Weather App",
     video:
-      "https://res.cloudinary.com/dt0v5nlzm/video/upload/v1643353744/Love_Calculator_-_Brave_2022-01-27_19-49-19_wngrdj.mp4",
+      "https://res.cloudinary.com/dt0v5nlzm/video/upload/v1693160816/Weather_App_wluhnz.mp4",
     description:
-      "It is an implementation of a basic game that calculates love percentage two names.",
-    techstack: ["HTML& CSS", "JavaScript"],
+      "A simple weather app with beautfull ui",
+    techstack: ["HTML","JS", "CSS","API","Bootstrap 4"],
     github: {
-      link: "https://github.com/Mehul208/LoveCalculatorApp",
+      link: "https://github.com/Mehul208/",
     },
     demo: {
-      link: "http://love-calculator-app.vercel.app/",
+      link: "https://mehuls-weather.vercel.app/",
     },
   },
 ];
