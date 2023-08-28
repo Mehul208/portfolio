@@ -63,9 +63,10 @@ function Home(props) {
           </h1>
           <p className="projects__section_description text-xl text-muli text-teaser ">
             I have built plenty of projects and Web Apps including Bots,
-            Dashboards etc. mainly with JavaScript.
+            Dashboards etc. mainly with JavaScript 
+            and have been successful working in both collaborative team projects and individual initiatives
             <br />
-            <br /> Here are some of them.
+            <br /> Here are some of the projects.
           </p>
           <div className="projects__container flex flex-col	">
             {data &&
@@ -103,7 +104,7 @@ function Home(props) {
               delhi, India with a love and passion for building products using
               the latest web technologies.
               <br />
-              <br />I am currently pursuing B.Tech in CSE from Chitkara University, Punjab '23.
+              <br />I have done my Bachelor of Engineering (B.E.) in CSE from Chitkara University, Punjab '23.
               <br />
               <br />
               Here are a few technologies I work with
@@ -115,6 +116,15 @@ function Home(props) {
                 <li>NodeJs</li>
                 <li>Express</li>
                 <li>Git</li>
+                <li>Next Js</li>
+                <li>AWS EC2</li>
+                <li>Redis</li>
+                <li>Neo4j GraphDB</li>
+                <li>Dart</li>
+                <li>Flutter</li>
+                <li>Open AI APIs</li>
+                <li>Django</li>
+                <li>Selenium</li>
               </ul>
             </div>
           </div>
