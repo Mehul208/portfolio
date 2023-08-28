@@ -1,11 +1,25 @@
 const projects = [
   {
+    title: "Ask ChatGPT Extension",
+    video:
+      "https://res.cloudinary.com/dt0v5nlzm/video/upload/v1693243336/askgpt_bfxvq3.mp4",
+    description:
+      "Ask ChatGPT is a Google Chrome Extension that unlocks the power of ChatGPT in your browser and website you visit without needed to ever visit ChatGPT externally.",
+    techstack: ["Chrome API","HTML", "CSS", "JS"],
+    github: {
+      link: "https://github.com/Mehul208/",
+    },
+    demo: {
+      link: "#",
+    },
+  },
+  {
     title: "Form Builder",
     video:
       "https://res.cloudinary.com/dt0v5nlzm/video/upload/v1693160812/Form_Builder_i35nrx.mp4",
     description:
       "Form Builder is a MERN application to create interactive forms with three types of creative question types available. It has Drag and drop feature for questions.",
-    techstack: ["React Js","Express", "MongoDB", "Node JS", "React DnD", "Tailwind CSS"],
+    techstack: ["MERN Stack", "React DnD", "TailwindCSS"],
     github: {
       link: "https://github.com/Mehul208/formBuilder",
     },
@@ -13,6 +27,20 @@ const projects = [
       link: "https://form-builder-steel.vercel.app/",
     },
   },
+  {
+    title: "Unified Search",
+    video:
+      "https://res.cloudinary.com/dt0v5nlzm/video/upload/v1693245070/multi_search_lcc9k7.mp4",
+    description:
+      "Unified Search is a multi-api aggregator for enhanced information retrieval. It makes search more easier by providing more focused and customized results using multiple APIs from top websites like OpenAi, StackOverflow, Google etc.",
+    techstack: ["MERN Stack", "Redis", "API", "TailwindCSS"],
+    github: {
+      link: "https://github.com/Mehul208/",
+    },
+    demo: {
+      link: "https://res.cloudinary.com/dt0v5nlzm/video/upload/v1693245070/multi_search_lcc9k7.mp4",
+    },
+},
   {
     title: "Ip Locator",
     video:
